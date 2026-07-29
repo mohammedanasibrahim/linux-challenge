@@ -31,10 +31,8 @@ Solutions to the Linux Challenge, covering Linux fundamentals, system administra
 
 Each script is standalone. Give it execute permission and run it:
 
-\`\`\`bash
 chmod +x scripts/backup.sh
 ./scripts/backup.sh
-\`\`\`
 
 `email_alert.sh` requires a working local `mail` command (e.g. `mailutils`) and the `EMAIL` variable set to a real address before use.
 
